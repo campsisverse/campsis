@@ -12,4 +12,5 @@
 This patch release updates the upstream repository URLs to reflect the migration to the new `campsisverse` organization.
 
 * Updated URL and BugReports links in `DESCRIPTION` to point to `https://github.com/campsisverse/campsis`.
-* No API, code, or functional changes have been introduced in this patch release.
+* Updated badges in `README`.
+* Updated links in vignettes.
