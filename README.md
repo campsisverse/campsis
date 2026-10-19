@@ -3,17 +3,15 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/Calvagone/campsis/workflows/R-CMD-check/badge.svg)](https://github.com/Calvagone/campsis/actions)
+[![R-CMD-check](https://github.com/campsisverse/campsis/workflows/R-CMD-check/badge.svg)](https://github.com/campsisverse/campsis/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/Calvagone/campsis/graph/badge.svg)](https://app.codecov.io/gh/Calvagone/campsis)
+coverage](https://codecov.io/gh/campsisverse/campsis/graph/badge.svg)](https://app.codecov.io/gh/campsisverse/campsis)
 [![CRAN
 version](http://www.r-pkg.org/badges/version/campsis)](https://cran.r-project.org/package=campsis)
 [![CRAN total
 downloads](https://cranlogs.r-pkg.org/badges/grand-total/campsis)](https://cran.r-project.org/package=campsis)
 [![CRAN total
 downloads](https://cranlogs.r-pkg.org/badges/campsis)](https://cran.r-project.org/package=campsis)
-[![campsis status
-badge](https://calvagone.r-universe.dev/campsis/badges/version)](https://calvagone.r-universe.dev/campsis)
 <!-- badges: end -->
 
 ## Requirements
@@ -23,10 +21,20 @@ badge](https://calvagone.r-universe.dev/campsis/badges/version)](https://calvago
 
 ## Installation
 
-Install the latest stable release using `devtools`:
+### From CRAN
+
+Install the latest official release from CRAN:
 
 ``` r
-devtools::install_github("Calvagone/campsis")
+install.packages("campsis")
+```
+
+### From GitHub
+
+Install the latest development version from GitHub:
+
+``` r
+remotes::install_github("campsisverse/campsis")
 ```
 
 ## Basic example

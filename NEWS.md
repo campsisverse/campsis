@@ -1,3 +1,7 @@
+# campsis 1.9.3
+* Migrate package to campsisverse organisation #230
+* Fix infusion duration unit conversion based on dataset configuration #228
+
 # campsis 1.9.2
 * Update maintainer's email address
 
