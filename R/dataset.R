@@ -843,8 +843,8 @@ processAllTimeColumns <- function(table, config) {
     dplyr::mutate(
       RATE = ifelse(
         is.na(.data$RATE) | .data$RATE <= 0, # TRUE when RATE is NA, -1 or -2
-        RATE,
-        RATE / convert_time(x = 1, from = unit_from, to = unit_to)
+        .data$RATE,
+        .data$RATE / convert_time(x = 1, from = unit_from, to = unit_to)
       )
     )
 
