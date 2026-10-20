@@ -133,8 +133,8 @@ get_character_cols_only <- function(x, cols) {
 #' @param cols a character vector of column names to convert.
 #'
 #' @return a data frame with updated factor columns.
-#' @export
 #' @importFrom dplyr mutate across all_of
+#' @keywords internal
 preserve_column_levels <- function(x, cols) {
   if (length(cols) > 0) {
     x <- x %>%
@@ -156,8 +156,8 @@ preserve_column_levels <- function(x, cols) {
 #' @param cols a character vector of column names to convert.
 #'
 #' @return a data frame with character columns.
-#' @export
 #' @importFrom dplyr mutate across all_of
+#' @keywords internal
 remove_column_levels <- function(x, cols) {
   if (length(cols) > 0) {
     x <- x %>%

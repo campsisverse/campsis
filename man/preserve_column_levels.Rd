@@ -18,3 +18,4 @@ a data frame with updated factor columns.
 Converts target columns into factors using their current unique row appearance
 order as the factor levels.
 }
+\keyword{internal}

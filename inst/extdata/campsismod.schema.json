@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://calvagone.github.io/campsis.doc/schema/1.0/campsismod.schema.json",
+  "$id": "https://campsisverse.github.io/campsis.doc/schema/1.0/campsismod.schema.json",
   "$comment": "Campsismod JSON Schema v1.0 \u00a9 2025 [Nicolas Luyckx / Calvagone]. Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
   "title": "Campsismod JSON Schema",
   "$ref": "#/$defs/model",

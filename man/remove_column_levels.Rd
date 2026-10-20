@@ -17,3 +17,4 @@ a data frame with character columns.
 \description{
 Converts target columns from factors into standard character vectors.
 }
+\keyword{internal}

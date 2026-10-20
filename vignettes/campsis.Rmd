@@ -81,4 +81,4 @@ shaded_plot(results)
 
 ### Going further
 
-We invite you to check out the other [vignettes](https://calvagone.github.io/campsis.doc/articles/). Have fun with Campsis!
+We invite you to check out the other [vignettes](https://campsisverse.github.io/campsis.doc/articles/). Have fun with Campsis!

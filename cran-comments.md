@@ -8,8 +8,9 @@
 
 0 errors | 0 warnings | 0 note
 
-## Submission Summary & Maintainer Update
-This patch release updates the maintainer's email address.
+## Submission Summary
+This patch release updates the upstream repository URLs to reflect the migration to the new `campsisverse` organization.
 
-* Updated maintainer email to `nicolas.luyckx@lynxsoft.be`.
-* No API or functional changes have been introduced in this patch release.
+* Updated URL and BugReports links in `DESCRIPTION` to point to `https://github.com/campsisverse/campsis`.
+* Updated badges in `README`.
+* Updated links in vignettes.

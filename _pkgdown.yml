@@ -18,7 +18,7 @@ navbar:
     - news
     right: github
     
-url: https://calvagone.github.io/campsis.doc/
+url: https://campsisverse.github.io/campsis.doc/
     
 reference:
 
@@ -241,9 +241,8 @@ reference:
   - time_varying_covariate-class
   - time_vector-class
   - treatment-class
-  - treatment_iov-class
+  - iov-class
   - treatment_iovs-class
   - undefined_distribution-class
   - undefined_schedule-class
   - uniform_distribution-class
-  
